@@ -1,0 +1,41 @@
+{
+  "name": "expo-vas-lib",
+  "version": "0.1.0",
+  "description": "VAS is a library that enables a third-party application running on a POS terminal to call ArkePay in order to perform a transaction. The third-party application initiates the transaction, control is transferred to ArkePay application, the user performs the transaction (presenting the card, entering PIN where appropriate etc.) and finally the transaction is finalized (Approved or rejected). The transaction result is returned to the calling application and control is transferred back there.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-vas-lib",
+    "ExpoVasLib"
+  ],
+  "repository": "https://github.com/tolypash/expo-vas-lib",
+  "bugs": {
+    "url": "https://github.com/tolypash/expo-vas-lib/issues"
+  },
+  "author": "Anatoly <anatoly.pashias6@gmail.com> (https://github.com/tolypash)",
+  "license": "MIT",
+  "homepage": "https://github.com/tolypash/expo-vas-lib#readme",
+  "devDependencies": {
+    "@types/react": "~18.2.14",
+    "expo-module-scripts": "^3.0.4",
+    "expo-modules-core": "~1.5.9"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
