@@ -86,7 +86,7 @@ rootProject.allprojects {
     mavenCentral()
 
     flatDir {
-      dirs 'libs'
+      dirs project(':expo-vas-lib').file('libs')
     }
   }
 }
@@ -98,5 +98,5 @@ dependencies {
 
   implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0"
 
-  implementation files('libs/vas-v1.2.2.aar')
+  implementation(name: "vas-v1.2.2", ext: "aar")
 }
