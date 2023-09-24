@@ -1,6 +1,6 @@
 {
   "name": "expo-vas-lib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "VAS is a library that enables a third-party application running on a POS terminal to call ArkePay in order to perform a transaction. The third-party application initiates the transaction, control is transferred to ArkePay application, the user performs the transaction (presenting the card, entering PIN where appropriate etc.) and finally the transaction is finalized (Approved or rejected). The transaction result is returned to the calling application and control is transferred back there.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
